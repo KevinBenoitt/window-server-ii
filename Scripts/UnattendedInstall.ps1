@@ -40,7 +40,7 @@ vboxmanage unattended install Sharepoint `
 --user Administrator `
 --password 23Admin24 `
 --install-additions `
---image-index 1 `
+--image-index 2 `
 --locale=be_NL `
 --country=BE `
 --time-zone=Europe/Brussels `
