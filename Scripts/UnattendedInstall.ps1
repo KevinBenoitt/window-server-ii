@@ -31,7 +31,7 @@ vboxmanage unattended install DC `
 --time-zone=Europe/Brussels `
 --post-install-command="shutdown /r" `
 --start-vm=gui `
---hostname=dhcp.ws2-2324-kevin.hogent
+--hostname=dc.ws2-2324-kevin.hogent
 
 
 #Unattended Install Sharepoint
@@ -46,7 +46,7 @@ vboxmanage unattended install Sharepoint `
 --time-zone=Europe/Brussels `
 --post-install-command="shutdown /r" `
 --start-vm=gui `
---hostname=dhcp.ws2-2324-kevin.hogent
+--hostname=sharepoint.ws2-2324-kevin.hogent
 
 #Unattended Install SQL
 vboxmanage unattended install SQL `
@@ -60,6 +60,6 @@ vboxmanage unattended install SQL `
 --time-zone=Europe/Brussels `
 --post-install-command="shutdown /r" `
 --start-vm=gui `
---hostname=dhcp.ws2-2324-kevin.hogent
+--hostname=sql.ws2-2324-kevin.hogent
 
 
